@@ -7,6 +7,11 @@ gemspec
 
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
+gem "httpclient", "~> 2.1.5"
+gem "nokogiri"
+gem "nori"
+gem "redis"
+gem "redis_logger", :git => 'git://github.com/masonoise/redis_logger.git'
 
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or
