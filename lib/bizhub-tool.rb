@@ -1,0 +1,2 @@
+module BizhubTool
+end
