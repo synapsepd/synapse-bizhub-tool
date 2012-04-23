@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
+  spec.add_development_dependency 'nori', '~> 1.1.0', '>= 1.1.0'
 end
